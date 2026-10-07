@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "merge-and-tell": {
+      "type": "http",
+      "url": "https://merge.tel/mcp"
+    }
+  }
+}

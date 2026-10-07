@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "merge-and-tell",
+  "version": "1.0.1",
+  "description": "Merge & Tell for coding agents: the Merge & Tell MCP server, which sets up an account that turns merged GitHub pull requests into social posts, plus a skill that drives onboarding and one that writes the reader (ICP) the posts are framed for.",
+  "author": {
+    "name": "John Farrell",
+    "url": "https://merge.tel"
+  },
+  "homepage": "https://merge.tel/start",
+  "repository": "https://github.com/mergetel/agents",
+  "license": "MIT",
+  "keywords": ["merge-and-tell", "mcp", "github", "social", "marketing", "icp"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Merge & Tell",
+        "shortDescription": "Turn merged pull requests into social posts, set up from your agent.",
+        "longDescription": "Merge & Tell for coding agents: the Merge & Tell MCP server, which sets up an account that turns merged GitHub pull requests into social posts, plus a skill that drives onboarding and one that writes the reader (ICP) the posts are framed for.",
+        "developerName": "John Farrell",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://merge.tel",
+        "defaultPrompt": [
+          "Set up Merge & Tell for me.",
+          "Write my Merge & Tell ICP from this repository.",
+          "How is my Merge & Tell account doing?"
+        ],
+        "brandColor": "#0D7EA4",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

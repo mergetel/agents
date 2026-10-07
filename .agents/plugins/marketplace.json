@@ -1,0 +1,20 @@
+{
+  "name": "mergetel",
+  "interface": {
+    "displayName": "Merge & Tell"
+  },
+  "plugins": [
+    {
+      "name": "merge-and-tell",
+      "source": {
+        "source": "local",
+        "path": "./plugins/merge-and-tell"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
