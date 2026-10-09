@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "merge-and-tell",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Merge & Tell for coding agents: the Merge & Tell MCP server, which sets up an account that turns merged GitHub pull requests into social posts, plus a skill that drives onboarding and one that writes the reader (ICP) the posts are framed for.",
   "author": {
     "name": "John Farrell",
