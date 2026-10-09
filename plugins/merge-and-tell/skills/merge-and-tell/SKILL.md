@@ -88,8 +88,10 @@ repositories that have both.
 
 Ask five things, then `save_voice`:
 
-1. Is this the company talking ("we", kind `brand`) or a person ("I", kind `person`)?
-   Person-voiced copy never auto-publishes; say so.
+1. Is this the company talking (kind `brand`) or a person ("I", kind `person`)?
+   Person-voiced copy never auto-publishes; say so. For a brand, ask who builds it. A
+   team says "we" (`pov: "we"`, the default). One person shouldn't claim a team, so pass
+   `pov: "it"`. The product then names itself and never says "we".
 2. `who`: one line. "Sam, solo founder, ten years in payments infra."
 3. `tone`: three or four adjectives and one sentence of what that looks like.
 4. `stance`: opinions the speaker repeats in public. `never`: words and moves to avoid.

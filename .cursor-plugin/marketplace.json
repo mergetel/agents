@@ -8,7 +8,7 @@
       "name": "merge-and-tell",
       "source": "./plugins/merge-and-tell",
       "description": "Merge & Tell for coding agents: the Merge & Tell MCP server, which sets up an account that turns merged GitHub pull requests into social posts, plus a skill that drives onboarding and one that writes the reader (ICP) the posts are framed for.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "homepage": "https://merge.tel/start",
       "logo": "assets/logo.png"
     }
